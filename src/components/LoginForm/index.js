@@ -1,9 +1,10 @@
 import React from 'react';
 
 export function LoginForm() {
+
 	return (
 		<div>
-			<form>
+			<form action="/submit" method="GET">
 				<label for="loginEmail">Email</label>
 				<input type="email" name="loginEmail" placeholder="email"/>
 				<label for="loginPassword">Password</label>

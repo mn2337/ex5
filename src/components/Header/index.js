@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header({ loggedIn }) {
 	return (
-		<header classname="Head">
+		<header className="Head">
 			<nav>
 				{loggedIn &&<a href="/"></a>}
 				{!loggedIn &&<a href="/login">Login</a>}
